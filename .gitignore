@@ -1,0 +1,6 @@
+build/
+include/
+*.elf
+*.gba
+*.sav
+.vscode/
