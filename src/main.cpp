@@ -13,7 +13,7 @@ namespace{
         static bn::vector<bn::sprite_ptr, 32> text_sprites;
         text_sprites.clear();
         text_generator.generate(0, -text_y_limit, "GBAlatro", text_sprites);
-        text_generator.generate(0, -text_y_limit+20, "Que pija", text_sprites);
+        text_generator.generate(0, -text_y_limit+20, "This is so cool", text_sprites);
         bn::core::update();
     }
 }
